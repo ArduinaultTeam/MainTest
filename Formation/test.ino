@@ -30,14 +30,14 @@ TM1637Display display(CLK,DIO);
 
 // On définit les pins d'I/O
 
-#define BP_1 1
-#define BP_2 4
-#define BP_3 5
+#define BP_1 4
+#define BP_2 5
+#define BP_3 6
 
 #define LUMI_1 A0
 #define LUMI_2 A1
 
-#define LED 6
+#define LED 7
 
 
 
