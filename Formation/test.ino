@@ -78,8 +78,8 @@ void loop() {
   vb_bp1 = digitalRead(2);
   vb_bp1 = digitalRead(3);
 
-  vi_lumi1=analogRead(A0);
-  vi_lumi2=analogRead(A1);
+  vi_lumi1=analogRead(LUMI_1);
+  vi_lumi2=analogRead(LUMI_2);
 
   // On prépare la variable qui servira à activer la LED
 
