@@ -32,20 +32,20 @@ int led_activate = 0;
 
 void setup() 
 {
-  pinMode(1,INPUT);
-  pinMode(2,INPUT);
-  pinMode(3,INPUT);
+  pinMode(BP_1,INPUT);
+  pinMode(BP_2,INPUT);
+  pinMode(BP_3,INPUT);
   
-  pinMode(4,OUTPUT);
+  pinMode(LED4,OUTPUT);
   
   Serial.begin(9600);
 }
 
 void loop() {
   
-  vb_bp1 = digitalRead(1);
-  vb_bp1 = digitalRead(2);
-  vb_bp1 = digitalRead(3);
+  vb_bp1 = digitalRead(BP_1);
+  vb_bp1 = digitalRead(BP_2);
+  vb_bp1 = digitalRead(BP_3);
 
   vi_lumi1=analogRead(LUMI_1);
   vi_lumi2=analogRead(LUMI_2);
