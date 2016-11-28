@@ -1,8 +1,9 @@
 #include<IRremote.h>
+#include<Servo.h>
+
 IRrecv receiver(11);
 decode_results results;
 
-#include<Servo.h>
 Servo servo1;
 Servo servo2;
 Servo servo3;
